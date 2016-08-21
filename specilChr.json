@@ -1,0 +1,1014 @@
+[
+    {
+        "name": "quot",
+        "val": "\""
+    },
+    {
+        "name": "amp",
+        "val": "&"
+    },
+    {
+        "name": "apos",
+        "val": "'"
+    },
+    {
+        "name": "lt",
+        "val": "<"
+    },
+    {
+        "name": "gt",
+        "val": ">"
+    },
+    {
+        "name": "nbsp",
+        "val": " "
+    },
+    {
+        "name": "iexcl",
+        "val": "¡"
+    },
+    {
+        "name": "cent",
+        "val": "¢"
+    },
+    {
+        "name": "pound",
+        "val": "£"
+    },
+    {
+        "name": "curren",
+        "val": "¤"
+    },
+    {
+        "name": "yen",
+        "val": "¥"
+    },
+    {
+        "name": "brvbar",
+        "val": "¦"
+    },
+    {
+        "name": "sect",
+        "val": "§"
+    },
+    {
+        "name": "uml",
+        "val": "¨"
+    },
+    {
+        "name": "copy",
+        "val": "©"
+    },
+    {
+        "name": "ordf",
+        "val": "ª"
+    },
+    {
+        "name": "laquo",
+        "val": "«"
+    },
+    {
+        "name": "not",
+        "val": "¬"
+    },
+    {
+        "name": "shy",
+        "val": " "
+    },
+    {
+        "name": "reg",
+        "val": "®"
+    },
+    {
+        "name": "macr",
+        "val": "¯"
+    },
+    {
+        "name": "deg",
+        "val": "°"
+    },
+    {
+        "name": "plusmn",
+        "val": "±"
+    },
+    {
+        "name": "sup2",
+        "val": "²"
+    },
+    {
+        "name": "sup3",
+        "val": "³"
+    },
+    {
+        "name": "acute",
+        "val": "´"
+    },
+    {
+        "name": "micro",
+        "val": "µ"
+    },
+    {
+        "name": "para",
+        "val": "¶"
+    },
+    {
+        "name": "middot",
+        "val": "·"
+    },
+    {
+        "name": "cedil",
+        "val": "¸"
+    },
+    {
+        "name": "sup1",
+        "val": "¹"
+    },
+    {
+        "name": "ordm",
+        "val": "º"
+    },
+    {
+        "name": "raquo",
+        "val": "»"
+    },
+    {
+        "name": "frac14",
+        "val": "¼"
+    },
+    {
+        "name": "frac12",
+        "val": "½"
+    },
+    {
+        "name": "frac34",
+        "val": "¾"
+    },
+    {
+        "name": "iquest",
+        "val": "¿"
+    },
+    {
+        "name": "Agrave",
+        "val": "À"
+    },
+    {
+        "name": "Aacute",
+        "val": "Á"
+    },
+    {
+        "name": "Acirc",
+        "val": "Â"
+    },
+    {
+        "name": "Atilde",
+        "val": "Ã"
+    },
+    {
+        "name": "Auml",
+        "val": "Ä"
+    },
+    {
+        "name": "Aring",
+        "val": "Å"
+    },
+    {
+        "name": "AElig",
+        "val": "Æ"
+    },
+    {
+        "name": "Ccedil",
+        "val": "Ç"
+    },
+    {
+        "name": "Egrave",
+        "val": "È"
+    },
+    {
+        "name": "Eacute",
+        "val": "É"
+    },
+    {
+        "name": "Ecirc",
+        "val": "Ê"
+    },
+    {
+        "name": "Euml",
+        "val": "Ë"
+    },
+    {
+        "name": "Igrave",
+        "val": "Ì"
+    },
+    {
+        "name": "Iacute",
+        "val": "Í"
+    },
+    {
+        "name": "Icirc",
+        "val": "Î"
+    },
+    {
+        "name": "Iuml",
+        "val": "Ï"
+    },
+    {
+        "name": "ETH",
+        "val": "Ð"
+    },
+    {
+        "name": "Ntilde",
+        "val": "Ñ"
+    },
+    {
+        "name": "Ograve",
+        "val": "Ò"
+    },
+    {
+        "name": "Oacute",
+        "val": "Ó"
+    },
+    {
+        "name": "Ocirc",
+        "val": "Ô"
+    },
+    {
+        "name": "Otilde",
+        "val": "Õ"
+    },
+    {
+        "name": "Ouml",
+        "val": "Ö"
+    },
+    {
+        "name": "times",
+        "val": "×"
+    },
+    {
+        "name": "Oslash",
+        "val": "Ø"
+    },
+    {
+        "name": "Ugrave",
+        "val": "Ù"
+    },
+    {
+        "name": "Uacute",
+        "val": "Ú"
+    },
+    {
+        "name": "Ucirc",
+        "val": "Û"
+    },
+    {
+        "name": "Uuml",
+        "val": "Ü"
+    },
+    {
+        "name": "Yacute",
+        "val": "Ý"
+    },
+    {
+        "name": "THORN",
+        "val": "Þ"
+    },
+    {
+        "name": "szlig",
+        "val": "ß"
+    },
+    {
+        "name": "agrave",
+        "val": "à"
+    },
+    {
+        "name": "aacute",
+        "val": "á"
+    },
+    {
+        "name": "acirc",
+        "val": "â"
+    },
+    {
+        "name": "atilde",
+        "val": "ã"
+    },
+    {
+        "name": "auml",
+        "val": "ä"
+    },
+    {
+        "name": "aring",
+        "val": "å"
+    },
+    {
+        "name": "aelig",
+        "val": "æ"
+    },
+    {
+        "name": "ccedil",
+        "val": "ç"
+    },
+    {
+        "name": "egrave",
+        "val": "è"
+    },
+    {
+        "name": "eacute",
+        "val": "é"
+    },
+    {
+        "name": "ecirc",
+        "val": "ê"
+    },
+    {
+        "name": "euml",
+        "val": "ë"
+    },
+    {
+        "name": "igrave",
+        "val": "ì"
+    },
+    {
+        "name": "iacute",
+        "val": "í"
+    },
+    {
+        "name": "icirc",
+        "val": "î"
+    },
+    {
+        "name": "iuml",
+        "val": "ï"
+    },
+    {
+        "name": "eth",
+        "val": "ð"
+    },
+    {
+        "name": "ntilde",
+        "val": "ñ"
+    },
+    {
+        "name": "ograve",
+        "val": "ò"
+    },
+    {
+        "name": "oacute",
+        "val": "ó"
+    },
+    {
+        "name": "ocirc",
+        "val": "ô"
+    },
+    {
+        "name": "otilde",
+        "val": "õ"
+    },
+    {
+        "name": "ouml",
+        "val": "ö"
+    },
+    {
+        "name": "divide",
+        "val": "÷"
+    },
+    {
+        "name": "oslash",
+        "val": "ø"
+    },
+    {
+        "name": "ugrave",
+        "val": "ù"
+    },
+    {
+        "name": "uacute",
+        "val": "ú"
+    },
+    {
+        "name": "ucirc",
+        "val": "û"
+    },
+    {
+        "name": "uuml",
+        "val": "ü"
+    },
+    {
+        "name": "yacute",
+        "val": "ý"
+    },
+    {
+        "name": "thorn",
+        "val": "þ"
+    },
+    {
+        "name": "yuml",
+        "val": "ÿ"
+    },
+    {
+        "name": "OElig",
+        "val": "Œ"
+    },
+    {
+        "name": "oelig",
+        "val": "œ"
+    },
+    {
+        "name": "Scaron",
+        "val": "Š"
+    },
+    {
+        "name": "scaron",
+        "val": "š"
+    },
+    {
+        "name": "Yuml",
+        "val": "Ÿ"
+    },
+    {
+        "name": "fnof",
+        "val": "ƒ"
+    },
+    {
+        "name": "circ",
+        "val": "ˆ"
+    },
+    {
+        "name": "tilde",
+        "val": "˜"
+    },
+    {
+        "name": "Alpha",
+        "val": "Α"
+    },
+    {
+        "name": "Beta",
+        "val": "Β"
+    },
+    {
+        "name": "Gamma",
+        "val": "Γ"
+    },
+    {
+        "name": "Delta",
+        "val": "Δ"
+    },
+    {
+        "name": "Epsilon",
+        "val": "Ε"
+    },
+    {
+        "name": "Zeta",
+        "val": "Ζ"
+    },
+    {
+        "name": "Eta",
+        "val": "Η"
+    },
+    {
+        "name": "Theta",
+        "val": "Θ"
+    },
+    {
+        "name": "Iota",
+        "val": "Ι"
+    },
+    {
+        "name": "Kappa",
+        "val": "Κ"
+    },
+    {
+        "name": "Lambda",
+        "val": "Λ"
+    },
+    {
+        "name": "Mu",
+        "val": "Μ"
+    },
+    {
+        "name": "Nu",
+        "val": "Ν"
+    },
+    {
+        "name": "Xi",
+        "val": "Ξ"
+    },
+    {
+        "name": "Omicron",
+        "val": "Ο"
+    },
+    {
+        "name": "Pi",
+        "val": "Π"
+    },
+    {
+        "name": "Rho",
+        "val": "Ρ"
+    },
+    {
+        "name": "Sigma",
+        "val": "Σ"
+    },
+    {
+        "name": "Tau",
+        "val": "Τ"
+    },
+    {
+        "name": "Upsilon",
+        "val": "Υ"
+    },
+    {
+        "name": "Phi",
+        "val": "Φ"
+    },
+    {
+        "name": "Chi",
+        "val": "Χ"
+    },
+    {
+        "name": "Psi",
+        "val": "Ψ"
+    },
+    {
+        "name": "Omega",
+        "val": "Ω"
+    },
+    {
+        "name": "alpha",
+        "val": "α"
+    },
+    {
+        "name": "beta",
+        "val": "β"
+    },
+    {
+        "name": "gamma",
+        "val": "γ"
+    },
+    {
+        "name": "delta",
+        "val": "δ"
+    },
+    {
+        "name": "epsilon",
+        "val": "ε"
+    },
+    {
+        "name": "zeta",
+        "val": "ζ"
+    },
+    {
+        "name": "eta",
+        "val": "η"
+    },
+    {
+        "name": "theta",
+        "val": "θ"
+    },
+    {
+        "name": "iota",
+        "val": "ι"
+    },
+    {
+        "name": "kappa",
+        "val": "κ"
+    },
+    {
+        "name": "lambda",
+        "val": "λ"
+    },
+    {
+        "name": "mu",
+        "val": "μ"
+    },
+    {
+        "name": "nu",
+        "val": "ν"
+    },
+    {
+        "name": "xi",
+        "val": "ξ"
+    },
+    {
+        "name": "omicron",
+        "val": "ο"
+    },
+    {
+        "name": "pi",
+        "val": "π"
+    },
+    {
+        "name": "rho",
+        "val": "ρ"
+    },
+    {
+        "name": "sigmaf",
+        "val": "ς"
+    },
+    {
+        "name": "sigma",
+        "val": "σ"
+    },
+    {
+        "name": "tau",
+        "val": "τ"
+    },
+    {
+        "name": "upsilon",
+        "val": "υ"
+    },
+    {
+        "name": "phi",
+        "val": "φ"
+    },
+    {
+        "name": "chi",
+        "val": "χ"
+    },
+    {
+        "name": "psi",
+        "val": "ψ"
+    },
+    {
+        "name": "omega",
+        "val": "ω"
+    },
+    {
+        "name": "thetasym",
+        "val": "ϑ"
+    },
+    {
+        "name": "upsih",
+        "val": "ϒ"
+    },
+    {
+        "name": "piv",
+        "val": "ϖ"
+    },
+    {
+        "name": "ensp",
+        "val": " "
+    },
+    {
+        "name": "emsp",
+        "val": " "
+    },
+    {
+        "name": "thinsp",
+        "val": " "
+    },
+    {
+        "name": "zwnj",
+        "val": " "
+    },
+    {
+        "name": "zwj",
+        "val": " "
+    },
+    {
+        "name": "lrm",
+        "val": " "
+    },
+    {
+        "name": "rlm",
+        "val": " "
+    },
+    {
+        "name": "ndash",
+        "val": "–"
+    },
+    {
+        "name": "mdash",
+        "val": "—"
+    },
+    {
+        "name": "lsquo",
+        "val": "‘"
+    },
+    {
+        "name": "rsquo",
+        "val": "’"
+    },
+    {
+        "name": "sbquo",
+        "val": "‚"
+    },
+    {
+        "name": "ldquo",
+        "val": "“"
+    },
+    {
+        "name": "rdquo",
+        "val": "”"
+    },
+    {
+        "name": "bdquo",
+        "val": "„"
+    },
+    {
+        "name": "dagger",
+        "val": "†"
+    },
+    {
+        "name": "Dagger",
+        "val": "‡"
+    },
+    {
+        "name": "bull",
+        "val": "•"
+    },
+    {
+        "name": "hellip",
+        "val": "…"
+    },
+    {
+        "name": "permil",
+        "val": "‰"
+    },
+    {
+        "name": "prime",
+        "val": "′"
+    },
+    {
+        "name": "Prime",
+        "val": "″"
+    },
+    {
+        "name": "lsaquo",
+        "val": "‹"
+    },
+    {
+        "name": "rsaquo",
+        "val": "›"
+    },
+    {
+        "name": "oline",
+        "val": "‾"
+    },
+    {
+        "name": "frasl",
+        "val": "⁄"
+    },
+    {
+        "name": "euro",
+        "val": "€"
+    },
+    {
+        "name": "image",
+        "val": "ℑ"
+    },
+    {
+        "name": "weierp",
+        "val": "℘"
+    },
+    {
+        "name": "real",
+        "val": "ℜ"
+    },
+    {
+        "name": "trade",
+        "val": "™"
+    },
+    {
+        "name": "alefsym",
+        "val": "ℵ"
+    },
+    {
+        "name": "larr",
+        "val": "←"
+    },
+    {
+        "name": "uarr",
+        "val": "↑"
+    },
+    {
+        "name": "rarr",
+        "val": "→"
+    },
+    {
+        "name": "darr",
+        "val": "↓"
+    },
+    {
+        "name": "harr",
+        "val": "↔"
+    },
+    {
+        "name": "crarr",
+        "val": "↵"
+    },
+    {
+        "name": "lArr",
+        "val": "⇐"
+    },
+    {
+        "name": "uArr",
+        "val": "⇑"
+    },
+    {
+        "name": "rArr",
+        "val": "⇒"
+    },
+    {
+        "name": "dArr",
+        "val": "⇓"
+    },
+    {
+        "name": "hArr",
+        "val": "⇔"
+    },
+    {
+        "name": "forall",
+        "val": "∀"
+    },
+    {
+        "name": "part",
+        "val": "∂"
+    },
+    {
+        "name": "exist",
+        "val": "∃"
+    },
+    {
+        "name": "empty",
+        "val": "∅"
+    },
+    {
+        "name": "nabla",
+        "val": "∇"
+    },
+    {
+        "name": "isin",
+        "val": "∈"
+    },
+    {
+        "name": "notin",
+        "val": "∉"
+    },
+    {
+        "name": "ni",
+        "val": "∋"
+    },
+    {
+        "name": "prod",
+        "val": "∏"
+    },
+    {
+        "name": "sum",
+        "val": "∑"
+    },
+    {
+        "name": "minus",
+        "val": "−"
+    },
+    {
+        "name": "lowast",
+        "val": "∗"
+    },
+    {
+        "name": "radic",
+        "val": "√"
+    },
+    {
+        "name": "prop",
+        "val": "∝"
+    },
+    {
+        "name": "infin",
+        "val": "∞"
+    },
+    {
+        "name": "ang",
+        "val": "∠"
+    },
+    {
+        "name": "and",
+        "val": "∧"
+    },
+    {
+        "name": "or",
+        "val": "∨"
+    },
+    {
+        "name": "cap",
+        "val": "∩"
+    },
+    {
+        "name": "cup",
+        "val": "∪"
+    },
+    {
+        "name": "int",
+        "val": "∫"
+    },
+    {
+        "name": "there4",
+        "val": "∴"
+    },
+    {
+        "name": "sim",
+        "val": "∼"
+    },
+    {
+        "name": "cong",
+        "val": "≅"
+    },
+    {
+        "name": "asymp",
+        "val": "≈"
+    },
+    {
+        "name": "ne",
+        "val": "≠"
+    },
+    {
+        "name": "equiv",
+        "val": "≡"
+    },
+    {
+        "name": "le",
+        "val": "≤"
+    },
+    {
+        "name": "ge",
+        "val": "≥"
+    },
+    {
+        "name": "sub",
+        "val": "⊂"
+    },
+    {
+        "name": "sup",
+        "val": "⊃"
+    },
+    {
+        "name": "nsub",
+        "val": "⊄"
+    },
+    {
+        "name": "sube",
+        "val": "⊆"
+    },
+    {
+        "name": "supe",
+        "val": "⊇"
+    },
+    {
+        "name": "oplus",
+        "val": "⊕"
+    },
+    {
+        "name": "otimes",
+        "val": "⊗"
+    },
+    {
+        "name": "perp",
+        "val": "⊥"
+    },
+    {
+        "name": "sdot",
+        "val": "⋅"
+    },
+    {
+        "name": "lceil",
+        "val": "⌈"
+    },
+    {
+        "name": "rceil",
+        "val": "⌉"
+    },
+    {
+        "name": "lfloor",
+        "val": "⌊"
+    },
+    {
+        "name": "rfloor",
+        "val": "⌋"
+    },
+    {
+        "name": "lang",
+        "val": "〈"
+    },
+    {
+        "name": "rang",
+        "val": "〉"
+    },
+    {
+        "name": "loz",
+        "val": "◊"
+    },
+    {
+        "name": "spades",
+        "val": "♠"
+    },
+    {
+        "name": "clubs",
+        "val": "♣"
+    },
+    {
+        "name": "hearts",
+        "val": "♥"
+    },
+    {
+        "name": "diams",
+        "val": "♦"
+    }
+]
