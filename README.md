@@ -49,7 +49,7 @@ node myTask.js
  
  _Sample command_
  
- node myTask.js --search=E:\hdd\edge\dev\src\static\views --option=jsMin --public=E:\hdd\edge\dev\src --output=E:\hdd\edge\dev\src\tst  --vendor=node_modules --vendor=bower_components --version=jc561 --mangle=true
+ node myTask.js --search=E:\hdd\app4pc\dev\src\static\views --option=jsMin --public=E:\hdd\app4pc\dev\src --output=E:\hdd\app4pc\dev\src\tst  --vendor=node_modules --vendor=bower_components --version=jc561 --mangle=true
 
 _output_
 
@@ -79,7 +79,7 @@ node myTask.js
  
  _Sample command_
  
-node myTask.js --ent=E:\hdd\edge\reqireGlp\iwoScr\iwo\static\app.js --option=requireMin --out=E:\hdd\edge\reqireGlp\iwoScr\iwo\static\out.js --mangle=true --clean=false
+node myTask.js --ent=E:\hdd\app4pc\reqireGlp\iwoScr\iwo\static\app.js --option=requireMin --out=E:\hdd\app4pc\reqireGlp\iwoScr\iwo\static\out.js --mangle=true --clean=false
 
 _output_
 
@@ -122,7 +122,7 @@ node myTask.js
  
  _Sample command_
  
-node myTask.js --search=E:\hdd\edge\reqireGlp\iwoScr\iwo\static --option=cssMin --public=E:\hdd\edge\reqireGlp\iwoScr\iwo --output=E:\hdd\edge\reqireGlp\iwoScr\iwo\static --vendor=node_modules --vendor=bower_components --version=jc561
+node myTask.js --search=E:\hdd\app4pc\reqireGlp\iwoScr\iwo\static --option=cssMin --public=E:\hdd\app4pc\reqireGlp\iwoScr\iwo --output=E:\hdd\app4pc\reqireGlp\iwoScr\iwo\static --vendor=node_modules --vendor=bower_components --version=jc561
 
 _output_
 
@@ -150,7 +150,7 @@ node myTask.js
  
  _Sample command_
  
- node myTask.js --search=E:\hdd\edge\reqireGlp\iwoScr\iwo\static\views --option=htmlMin
+ node myTask.js --search=E:\hdd\app4pc\reqireGlp\iwoScr\iwo\static\views --option=htmlMin
 
 _output_
 
@@ -176,7 +176,7 @@ node myTask.js
  
  _Sample command_
  
-node myTask.js --search=E:\hdd\edge\reqireGlp\iwoScr\iwo\static --option=imgMin --output=E:\hdd\edge\reqireGlp\iwoScr\iwo\static\kkp
+node myTask.js --search=E:\hdd\app4pc\reqireGlp\iwoScr\iwo\static --option=imgMin --output=E:\hdd\app4pc\reqireGlp\iwoScr\iwo\static\kkp
 _output_
 
 Images will be created in respective Directory format after optimisation
@@ -198,7 +198,7 @@ node myTask.js
   
  _Sample command_
  
-node myTask.js --search=E:\hdd\edge\reqireGlp\iwoScr\iwo\static --option=fontMin --output=E:\hdd\edge\reqireGlp\iwoScr\iwo\static\kkp
+node myTask.js --search=E:\hdd\app4pc\reqireGlp\iwoScr\iwo\static --option=fontMin --output=E:\hdd\app4pc\reqireGlp\iwoScr\iwo\static\kkp
 
 _output_
 
