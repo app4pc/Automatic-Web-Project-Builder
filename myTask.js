@@ -37,7 +37,7 @@ var argCmd =process.argv.slice(2),
     allCssAsts={};
 var replacChr=(prm)=>{
     speclChr.forEach(o=>{
-        let reg= new RegExp("/\&"+o["name"]+"\;/g");
+        let reg= new RegExp("\&"+o["name"]+"\;","g");
         prm=prm.replace(reg,o["val"]);
     });
     return prm;
@@ -659,7 +659,7 @@ var htmlMin=()=>{
                             return node.type === 'comment'
                         }).remove();
                     }
-                    let nowHtml=minify($.html(),{
+                    let nowHtml=minify(replacChr($.html()),{
                         removeComments:false,
                         removeOptionalTags:true,
                         minifyCSS:true,
