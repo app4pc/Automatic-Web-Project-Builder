@@ -29,6 +29,7 @@ var argCmd =process.argv.slice(2),
     allTsks=[],
     arg={},
     strRegStr="",
+    skipDir="",
     strReg,
     cssAssetsTyp=["png","gif","jpg","jpeg","svg","mp3","ogg","eot","woff2","woff","ttf","otf"],
     imgMinTyp=['jpg','png','jpeg','gif','svg'],
@@ -42,14 +43,16 @@ var replacChr=(prm)=>{
     return prm;
 };
 var createArg=()=>{
-    console.log(chalk.cyan("                                                                                                                    \n                                                                                                                    \n                                                                 444444444                                          \n                                                                4::::::::4                                          \n                                                               4:::::::::4                                          \n                                                              4::::44::::4                                          \n  aaaaaaaaaaaaa   ppppp   ppppppppp   ppppp   ppppppppp      4::::4 4::::4  ppppp   ppppppppp       cccccccccccccccc\n  a::::::::::::a  p::::ppp:::::::::p  p::::ppp:::::::::p    4::::4  4::::4  p::::ppp:::::::::p    cc:::::::::::::::c\n  aaaaaaaaa:::::a p:::::::::::::::::p p:::::::::::::::::p  4::::4   4::::4  p:::::::::::::::::p  c:::::::::::::::::c\n           a::::a pp::::::ppppp::::::ppp::::::ppppp::::::p4::::444444::::444pp::::::ppppp::::::pc:::::::cccccc:::::c\n    aaaaaaa:::::a  p:::::p     p:::::p p:::::p     p:::::p4::::::::::::::::4 p:::::p     p:::::pc::::::c     ccccccc\n  aa::::::::::::a  p:::::p     p:::::p p:::::p     p:::::p4444444444:::::444 p:::::p     p:::::pc:::::c             \n a::::aaaa::::::a  p:::::p     p:::::p p:::::p     p:::::p          4::::4   p:::::p     p:::::pc:::::c             \na::::a    a:::::a  p:::::p    p::::::p p:::::p    p::::::p          4::::4   p:::::p    p::::::pc::::::c     ccccccc\na::::a    a:::::a  p:::::ppppp:::::::p p:::::ppppp:::::::p          4::::4   p:::::ppppp:::::::pc:::::::cccccc:::::c\na:::::aaaa::::::a  p::::::::::::::::p  p::::::::::::::::p         44::::::44 p::::::::::::::::p  c:::::::::::::::::c\n a::::::::::aa:::a p::::::::::::::pp   p::::::::::::::pp          4::::::::4 p::::::::::::::pp    cc:::::::::::::::c\n  aaaaaaaaaa  aaaa p::::::pppppppp     p::::::pppppppp            4444444444 p::::::pppppppp        cccccccccccccccc\n                   p:::::p             p:::::p                               p:::::p                                \n                   p:::::p             p:::::p                               p:::::p                                \n                  p:::::::p           p:::::::p                             p:::::::p                               \n                  p:::::::p           p:::::::p                             p:::::::p                               \n                  p:::::::p           p:::::::p                             p:::::::p                               \n                  ppppppppp           ppppppppp                             ppppppppp                               \n                                                                                                                    "));
+    console.log(chalk.cyan("       db         8b           d8  88888888ba\n      d88b        `8b         d8\'  88      \"8b\n     d8\'`8b        `8b       d8\'   88      ,8P\n    d8\'  `8b        `8b     d8\'    88aaaaaa8P\'\n   d8YaaaaY8b        `8b   d8\'     88\"\"\"\"88\'\n  d8\"\"\"\"\"\"\"\"8b        `8b d8\'      88    `8b\n d8\'        `8b        `888\'       88     `8b\nd8\'          `8b        `8\'        88      `8b\n	 			  \t\t  dddddddd\n		EEEEEEEEEEEEEEEEEEEEEE            d::::::d\n		E::::::::::::::::::::E            d::::::d\n		E::::::::::::::::::::E            d::::::d\n		EE::::::EEEEEEEEE::::E            d:::::d\n		E:::::E       EEEEEE      ddddddddd:::::d    ggggggggg   ggggg    eeeeeeeeeeee\n		E:::::E                 dd::::::::::::::d   g:::::::::ggg::::g  ee::::::::::::ee\n		E::::::EEEEEEEEEE      d::::::::::::::::d  g:::::::::::::::::g e::::::eeeee:::::ee\n		E:::::::::::::::E     d:::::::ddddd:::::d g::::::ggggg::::::gge::::::e     e:::::e\n		E:::::::::::::::E     d::::::d    d:::::d g:::::g     g:::::g e:::::::eeeee::::::e\n		E::::::EEEEEEEEEE     d:::::d     d:::::d g:::::g     g:::::g e:::::::::::::::::e\n		E:::::E               d:::::d     d:::::d g:::::g     g:::::g e::::::eeeeeeeeeee\n		E:::::E       EEEEEE  d:::::d     d:::::d g::::::g    g:::::g e:::::::e\n		EE::::::EEEEEEEE:::::Ed::::::ddddd::::::ddg:::::::ggggg:::::g e::::::::e\n		E::::::::::::::::::::E d:::::::::::::::::d g::::::::::::::::g  e::::::::eeeeeeee\n		E::::::::::::::::::::E  d:::::::::ddd::::d  gg::::::::::::::g   ee:::::::::::::e\n		EEEEEEEEEEEEEEEEEEEEEE   ddddddddd   ddddd    gggggggg::::::g     eeeeeeeeeeeeee\n _   _        _                           _             g:::::g      g:::::g\n| \\ | |      | |                         | |            g:::::g      g:::::g\n|  \\| |  ___ | |_ __      __  ___   _ __ | | __ ___     g:::::gg   gg:::::g\n| . ` | / _ \\| __|\\ \\ /\\ / / / _ \\ | \'__|| |/ // __|     g::::::ggg:::::::g\n| |\\  ||  __/| |_  \\ V  V / | (_) || |   |   < \\__ \\      gg:::::::::::::g\n\\_| \\_/ \\___| \\__|  \\_/\\_/   \\___/ |_|   |_|\\_\\|___/        ggg::::::ggg															 \t\t\t\t\t\tgggggg"));
     argCmd.forEach(o=>{
         let prm=o.split("=");
         if(prm[0].indexOf("--")==0){
             if(prm[0].indexOf("vendor")!=2){
                 arg[prm[0].substring(2)]=prm[1]
-            }else {
+            }else if(prm[0].indexOf("vendor")==2) {
                 strRegStr+=prm[1]+"|";
+            }else if(prm[0].indexOf("skipDir")==2) {
+                skipDir+=prm[1]+"|";
             }
         }else {
             strRegStr+=prm[0]+"|";
@@ -59,6 +62,12 @@ var createArg=()=>{
         strRegStr="node_modules|bower_components"
     }else {
         strRegStr=strRegStr.substring(0,strRegStr.length-1);
+    }
+
+    if(!skipDir){
+        skipDir="node_modules|bower_components"
+    }else {
+        skipDir=strRegStr.substring(0,strRegStr.length-1);
     }
     strReg=new RegExp(strRegStr);
 };
@@ -104,7 +113,14 @@ var addGlpTsk=(typ,tskNm,operArr,pr)=>{
                 }else{
                     let strngWitUrl=data.split("url(");
                     strngWitUrl.splice(0,1);
-                    strngWitUrl.forEach(o1=>{
+                    strngWitUrl.filter(tt=>{
+                        let itsUrl=o1.substring(0,o1.indexOf(")")).split("'").join("").split('"').join("");
+                        if(!itsUrl || itsUrl.indexOf("data:")!=-1){
+                            return false;
+                        }else {
+                            return true;
+                        }
+                    }).forEach(o1=>{
                         let itsUrl=o1.substring(0,o1.indexOf(")")).split("'").join("").split('"').join("");
                         let itsUrl1=itsUrl.indexOf("?")!=-1?itsUrl.split("?")[0]:(itsUrl.indexOf("#")!=-1?itsUrl.split("#")[0]:itsUrl);
                         let cssUrl=k.substring(0,k.lastIndexOf("\\"));
@@ -507,13 +523,15 @@ var cssMin=()=>{
     walker.on('file', (root, stat, next)=>{
         let typ=stat.name.split(".");
         let itsTyp=typ[typ.length-1];
-        if(itsTyp=='html'){
-            files.push(root + '\\' + stat.name);
-        }else if(cssAssetsTyp.indexOf(itsTyp.toLowerCase())!=-1){
-            if(!allCssAsts[stat.name.replace(/[^a-zA-Z0-9_-]/g, "")] || allCssAsts[stat.name.replace(/[^a-zA-Z0-9_-]/g, "")]["size"]>stat.size){
-                allCssAsts[stat.name.replace(/[^a-zA-Z0-9_-]/g, "")]={"pth":root + '\\' + stat.name,"size":stat.size};
-            }else {
-                console.log(stat,"size of file not compromised",allCssAsts[stat.name.replace(/[^a-zA-Z0-9_-]/g, "")]);
+        if(!(new RegExp(skipDir).test(""+root))){
+            if(itsTyp=='html'){
+                files.push(root + '\\' + stat.name);
+            }else if(cssAssetsTyp.indexOf(itsTyp.toLowerCase())!=-1){
+                if(!allCssAsts[stat.name.replace(/[^a-zA-Z0-9_-]/g, "")] || allCssAsts[stat.name.replace(/[^a-zA-Z0-9_-]/g, "")]["size"]>stat.size){
+                    allCssAsts[stat.name.replace(/[^a-zA-Z0-9_-]/g, "")]={"pth":root + '\\' + stat.name,"size":stat.size};
+                }else {
+                    console.log("size: ",stat.size,"size of file not compromised",allCssAsts[stat.name.replace(/[^a-zA-Z0-9_-]/g, "")]);
+                }
             }
         }
         next();
@@ -617,8 +635,10 @@ var htmlMin=()=>{
 
     walker.on('file', (root, stat, next)=>{
         let typ=stat.name.split(".");
-        if(typ[typ.length-1]=='html'){
-            files.push(root + '\\' + stat.name);
+        if(!(new RegExp(skipDir).test(""+root))){
+            if(typ[typ.length-1]=='html'){
+                files.push(root + '\\' + stat.name);
+            }
         }
         next();
     });
